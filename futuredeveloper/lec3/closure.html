@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>closure</h1>
+    <script>
+        function outerFunction() {
+            var outerVariable = 'I am from outer function';
+
+            function innerFunction() {
+                console.log(outerVariable); // Accessing variable from outer function
+            }
+
+            return innerFunction;
+        }
+
+        var closureFunction = outerFunction();
+        closureFunction(); // Output: I am from outer function
+    </script>
+</body>
+</html>

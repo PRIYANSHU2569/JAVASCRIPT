@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    //module scope
+    // 1. Variables declared inside a module are
+    // not added to the global window object.
+    // 2. Each module has its own scope.
+    // 3. Modules are always in strict mode.
+    // 4. To use modules, the script tag must have type="module" attribute
+    5. Modules are deferred by default, so they execute after the HTML is fully parsed.
+    6. Modules can import and export functionality to and from other modules using the import and
+    export statements.
+    7. Modules can be used to organize code into reusable components, making it easier to manage
+    and maintain large codebases.
+    8. Modules can be loaded asynchronously, allowing for better performance and faster page load
+    times.
+    9. Modules can be used to encapsulate functionality and prevent naming conflicts with other
+    scripts on the same page.
+    10. Modules can be used to create libraries and frameworks that can be easily shared and reused
+    across different projects.
+    11. Modules can be used to implement design patterns such as the module pattern, which helps to
+    organize code and improve maintainability.
+    12. Modules can be used to implement dependency injection, which helps to manage dependencies
+    between different components of an application.
+    13. Modules can be used to implement lazy loading, which helps to improve performance by only
+    loading code when it is needed.
+    14. Modules can be used to implement code splitting, which helps to reduce the size of the initial
+    JavaScript bundle and improve page load times.
+    15. Modules can be used to implement tree shaking, which helps to eliminate unused code and reduce
+    the size of the final JavaScript bundle.
+    16. Modules can be used to implement hot module replacement, which helps to improve the development
+    experience by allowing developers to see changes in real-time without having to refresh the page.
+    17. Modules can be used to implement server-side rendering, which helps to improve performance and
+    SEO by rendering content on the server before sending it to the client.
+    18. Modules can be used to implement progressive web apps, which help to improve the user experience
+    by providing offline functionality and other features.
+
+    19. Modules can be used to implement micro frontends, which help to break down large applications
+    into smaller, more manageable pieces that can be developed and deployed independently.
+    20. Modules can be used to implement component-based architectures, which help to improve code
+    reusability and maintainability by breaking down applications into smaller, reusable components.
+    21. Modules can be used to implement functional programming techniques, which help to improve code
+    readability and maintainability by using pure functions and avoiding side effects.
+    <script type = "module">
+        var a= 10;
+    </script>
+    <script>
+        var  a = 10; // Global scope
+        console.log(window.a); // 10
+    </script>
+</body>
+</html>
