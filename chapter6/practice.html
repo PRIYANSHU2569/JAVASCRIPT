@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Practice</title>
+</head>
+<body>
+  <Script>
+    function OddEven(num) {
+      if (num % 2 === 0) {
+        return 'Even';
+      } else {
+        return 'Odd';
+      }
+    }
+    console.log(OddEven(4)); // Even
+    console.log(OddEven(7)); // Odd
+    
+
+    function LargerNumber(a, b) {
+      if (a > b) {
+        return a;
+      } else if (b > a) {
+        return b;
+      } else {
+        return 'Both numbers are equal';
+      }
+    }
+    console.log(LargerNumber(10, 5)); // 10
+    console.log(LargerNumber(3, 8)); // 8
+    console.log(LargerNumber(4, 4)); // Both numbers are equal
+    function ConvertToFahrenheit(celsius) {
+      let fahrenheit = (celsius * 9/5) + 32;
+      return fahrenheit;
+    }
+    console.log(ConvertToFahrenheit(0)); // 32
+    console.log(ConvertToFahrenheit(100)); // 212
+    console.log(ConvertToFahrenheit(37)); // 98.6
+    
+  </Script>
+</body>
+</html>
