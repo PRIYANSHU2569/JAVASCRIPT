@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Practice</title>
+  <style>
+    .btn{
+      /* padding:10px 20px; */
+      font-size:16px;
+      height: 20px;
+      width: 80px;
+      background-color:rgb(255, 0, 0);
+      color:white;
+      border:none;
+      border-radius:5px;
+      cursor:pointer;
+    }
+    .js-size-double{
+      height: 40px;
+      width: 160px;
+      font-size:20px;
+    }
+  </style>
+
+</head>
+<body>
+  <button class="btn">Subscribe</button>
+
+  <script>
+    // let button = document.querySelector('.btn');
+    // button.addEventListener('click', event => 
+    // {
+    //   setTimeout(doubleThesize, 2000);
+    // });
+
+    // function doubleThesize(){
+    //   let button = document.querySelector('.btn');
+    //   button.classList.add('js-size-double');
+    // }
+   
+    // let multiply = (num1 ,num2) => num1 * num2;
+    // console.log(multiply(5, 3));
+    // let printGreeting = ()=> console.log('Hello, welcome to JavaScript!');
+    // let  runTwice=inputFunction=>{
+    //   inputFunction();
+    //   inputFunction();
+    // }
+
+    // runTwice(printGreeting);
+
+
+    let arr = [1, 2, 3, 4, 5];
+    let sum = 0;
+    arr.forEach(num => sum += num);
+
+    console.log(sum);
+
+    let squaredArr = arr.map(num => num * num);
+    console.log(squaredArr);
+
+
+
+
+
+  </script>
+  
+</body>
+</html>
